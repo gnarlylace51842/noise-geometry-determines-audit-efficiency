@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# PyTorch checkpoints (large binary files)
+*.pt
+*.pth
+
+# Old/intermediate experiment runs
+runs_projectA/
+runs_projectA_long/
+runs_projectA_stage2/
+runs_projectA_sweep/
+runs_projectA_sweep_resume/
+runs_projectA_adaptive_eta0p02_gate0p35/
+runs_projectA_adaptive_seed0/
+runs_projectA_adaptive_seed0_gate0p39/
+runs_projectA_adaptive_seed0_gate0p40/
+runs_projectA_audit_relabel_pilot/
+runs_projectA_relabel_pilot/
+runs_projectA_replication/
+runs_projectA_sweep_small_eta_gate0p35/
+runs_relabeling_experiment/
+
+# Temp/smoke test runs
+tmp_adaptive_smoke_grok/
+tmp_adaptive_smoke_ng/
+tmp_audit_smoke/
+tmp_gate040_continue/
+tmp_gate_resume/
+tmp_gate_resume_v2/
+tmp_relabel_bench/
+tmp_relabel_earlystop/
+tmp_relabel_smoke/
+tmp_replication_smoke/
+tmp_stage2_resumecheck/
+tmp_stage2_smoke/
+
+# Validation/pilot runs (not final)
+runs_audit_smoke/
+runs_audit_losscheck/
+
+# Old experiment scripts (superseded)
+run_relabeling_experiment.py
+run_audit_relabeling_experiment.py
+run_relabeling_pilot.py
+run_selected_replication.py
+select_replication_etas.py
+projectA_stage2.py
+
+# Manuscript, review, and internal files (not part of the reproducibility repo)
+paper_draft.md
+paper_draft.docx
+paper_draft_revised.docx
+reviewer_response.md
+Response_to_Reviewers.docx
+manuscript_changes.md
+figure_captions.md
+figure_captions.docx
+handoff_memories/
+AGENTS.md
+
+# Nested working clone of the published repo
+noise-geometry-determines-audit-efficiency/
+
+# IDE
+*.code-workspace
+
+# OS
+.DS_Store
